@@ -76,12 +76,10 @@ p {
 /* Title Image */
 
 .main_pic {
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 20px;
-margin-bottom: 20px;
-transform: rotate(25deg);
-width: 70%;
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 
@@ -150,7 +148,7 @@ footer {
     text-align: center;
   }
 
-  .title-image {
+  .main_pic{
     position: static;
     transform: rotate(0);
   }
